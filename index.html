@@ -1,160 +1,490 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
+
+
 
   
-  <title>Hunsy&#39;s Note</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="￥Jin">
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="-----------------">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hunsy&#39;s Note">
+<meta property="og:title" content="随记">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hunsy&#39;s Note">
-<meta property="og:description" content="￥Jin">
-<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="随记">
+<meta property="og:description" content="-----------------">
+<meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hunsy&#39;s Note">
-<meta name="twitter:description" content="￥Jin">
+<meta name="twitter:title" content="随记">
+<meta name="twitter:description" content="-----------------">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+
+
+
+  <title>随记</title>
   
-    <link rel="alternate" href="/atom.xml" title="Hunsy&#39;s Note" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
+
+
+
+
+
+
+
+
 </head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hunsy&#39;s Note</a>
-      </h1>
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">随记</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">首页</a>
-        
-          <a class="main-nav-link" href="/archives">归档</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-Git分支管理" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/03/01/Git分支管理/" class="article-date">
-  <time datetime="2018-03-01T06:02:02.000Z" itemprop="datePublished">2018-03-01</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Git/">Git</a>
+        <p class="site-subtitle"></p>
+      
   </div>
 
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
   </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/03/01/Git分支管理/">Git分支管理</a>
-    </h1>
+</div>
+
+<nav class="site-nav">
   
 
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/01/Git分支管理/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="hunsy">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/common/my_avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="随记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/03/01/Git分支管理/" itemprop="url">Git分支管理</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-01T14:02:02+08:00">
+                2018-03-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Git/" itemprop="url" rel="index">
+                    <span itemprop="name">Git</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>几乎每一种版本控制系统都以某种形式支持分支。使用分支意味着你可以从开发主线上分离开来，然后在不影响主线的同时继续工作。</p>
-<p>有人把 Git 的分支模型称为”必杀技特性”，而正是因为它，将 Git 从版本控制系统家族里区分出来。</p>
-<p>创建分支命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git branch &lt;分支名称&gt;</span><br></pre></td></tr></table></figure>
-<p>切换分支命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git checkout &lt;分支名称&gt;</span><br></pre></td></tr></table></figure>
-<p>当你切换分支的时候，Git 会用该分支的最后提交的快照替换你的工作目录的内容， 所以多个分支不需要多个目录。</p>
-<p>合并分支命令:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git merge</span><br></pre></td></tr></table></figure>
-<p>你可以多次合并到统一分支， 也可以选择在合并之后直接删除被并入的分支。</p>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/03/01/Git分支管理/" data-id="cjriloynx0000gcte949gz5rs" class="article-share-link">分享</a>
       
+
+      
+        
+          
+            <p>几乎每一种版本控制系统都以某种形式支持分支。使用分支意味着你可以从开发主线上分离开来，然后在不影响主线的同时继续工作。<br>有人把 Git 的分支模型称为”必杀技特性”，而正是因为它，将 Git 从版本控制系统家族里区分出来。</p>
+<p>创建分支命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git branch &lt;分支名称&gt;</span><br></pre></td></tr></table></figure></p>
+<p>切换分支命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git checkout &lt;分支名称&gt;</span><br></pre></td></tr></table></figure></p>
+<p>当你切换分支的时候，Git 会用该分支的最后提交的快照替换你的工作目录的内容， 所以多个分支不需要多个目录。<br>合并分支命令:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git merge</span><br></pre></td></tr></table></figure></p>
+<p>你可以多次合并到统一分支， 也可以选择在合并之后直接删除被并入的分支。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-Git基本操作" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/03/01/Git基本操作/" class="article-date">
-  <time datetime="2018-03-01T02:35:59.000Z" itemprop="datePublished">2018-03-01</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Git/">Git</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/01/Git基本操作/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="hunsy">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/common/my_avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="随记">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/03/01/Git基本操作/">Git基本操作</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/03/01/Git基本操作/" itemprop="url">Git基本操作</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-01T10:35:59+08:00">
+                2018-03-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Git/" itemprop="url" rel="index">
+                    <span itemprop="name">Git</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <h3 id="新建与获取项目命令"><a href="#新建与获取项目命令" class="headerlink" title="新建与获取项目命令"></a>新建与获取项目命令</h3><h4 id="1-git-init"><a href="#1-git-init" class="headerlink" title="1. git init"></a>1. git init</h4><p><code>git init</code>是在目录中创建Git的本地仓库。</p>
+      
+
+      
+        
+          
+            <h3 id="新建与获取项目命令"><a href="#新建与获取项目命令" class="headerlink" title="新建与获取项目命令"></a>新建与获取项目命令</h3><h4 id="1-git-init"><a href="#1-git-init" class="headerlink" title="1. git init"></a>1. git init</h4><p><code>git init</code>是在目录中创建Git的本地仓库。</p>
 <p>例如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir demo</span><br><span class="line">$ cd demo/</span><br><span class="line">$ git init</span><br><span class="line">Initialized empty Git repository in /home/hunsy/demo/.git/</span><br></pre></td></tr></table></figure>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">mkdir</span> demo</span><br><span class="line">$ <span class="built_in">cd</span> demo/</span><br><span class="line">$ git init</span><br><span class="line">Initialized empty Git repository <span class="keyword">in</span> /home/hunsy/demo/.git/</span><br></pre></td></tr></table></figure>
 <h4 id="2-git-clone"><a href="#2-git-clone" class="headerlink" title="2. git clone"></a>2. git clone</h4><p><code>git clone [url]</code>拷贝一个仓库到本地。url是想要拷贝项目的地址。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https://github.com/hunsy/jzz.git</span><br><span class="line">Cloning into &apos;jzz&apos;...</span><br><span class="line">remote: Counting objects: 7, done.</span><br><span class="line">remote: Total 7(delta 0), reused 0 (delta 0),pack-reused 7</span><br><span class="line">Unpacking objects: 100% (7/7),done.</span><br><span class="line">Checking connectivity... done.</span><br><span class="line">$cd jzz</span><br><span class="line">$ ll</span><br><span class="line">total 12</span><br><span class="line">drwxrwxrwx 0 liuxindime liuxindime  4096 Mar  1 10:59 ./</span><br><span class="line">drwxr-xr-x 0 liuxindime liuxindime  4096 Mar  1 10:58 ../</span><br><span class="line">drwxrwxrwx 0 liuxindime liuxindime  4096 Mar  1 10:59 .git/</span><br><span class="line">-rw-rw-rw- 1 liuxindime liuxindime   189 Mar  1 10:59 .gitignore</span><br><span class="line">-rw-rw-rw- 1 liuxindime liuxindime 11357 Mar  1 10:59 LICENSE</span><br><span class="line">-rw-rw-rw- 1 liuxindime liuxindime    21 Mar  1 10:59 README.md</span><br></pre></td></tr></table></figure>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https://github.com/hunsy/jzz.git</span><br><span class="line">Cloning into 'jzz'...</span><br><span class="line"><span class="function">remote: <span class="title">Counting</span> <span class="title">objects</span>: 7, <span class="title">done</span>.</span></span><br><span class="line"><span class="function"><span class="title">remote</span>: <span class="title">Total</span> 7(<span class="title">delta</span> 0), <span class="title">reused</span> 0 (<span class="title">delta</span> 0),<span class="title">pack</span>-<span class="title">reused</span> 7</span></span><br><span class="line"><span class="function"><span class="title">Unpacking</span> <span class="title">objects</span>: 100% (7/7),<span class="title">done</span>.</span></span><br><span class="line"><span class="function"><span class="title">Checking</span> <span class="title">connectivity</span>... <span class="title">done</span>.</span></span><br><span class="line"><span class="function">$ <span class="title">cd</span> <span class="title">jzz</span></span></span><br><span class="line"><span class="function">$ <span class="title">ll</span></span></span><br><span class="line"><span class="function"><span class="title">total</span> 12</span></span><br><span class="line"><span class="function"><span class="title">drwxrwxrwx</span> 0 <span class="title">liuxindime</span> <span class="title">liuxindime</span>  4096 <span class="title">Mar</span>  1 10:59 ./</span></span><br><span class="line"><span class="function"><span class="title">drwxr</span>-<span class="title">xr</span>-<span class="title">x</span> 0 <span class="title">liuxindime</span> <span class="title">liuxindime</span>  4096 <span class="title">Mar</span>  1 10:58 ../</span></span><br><span class="line"><span class="function"><span class="title">drwxrwxrwx</span> 0 <span class="title">liuxindime</span> <span class="title">liuxindime</span>  4096 <span class="title">Mar</span>  1 10:59 .<span class="title">git</span>/</span></span><br><span class="line"><span class="function">-<span class="title">rw</span>-<span class="title">rw</span>-<span class="title">rw</span>- 1 <span class="title">liuxindime</span> <span class="title">liuxindime</span>   189 <span class="title">Mar</span>  1 10:59 .<span class="title">gitignore</span></span></span><br><span class="line"><span class="function">-<span class="title">rw</span>-<span class="title">rw</span>-<span class="title">rw</span>- 1 <span class="title">liuxindime</span> <span class="title">liuxindime</span> 11357 <span class="title">Mar</span>  1 10:59 <span class="title">LICENSE</span></span></span><br><span class="line"><span class="function">-<span class="title">rw</span>-<span class="title">rw</span>-<span class="title">rw</span>- 1 <span class="title">liuxindime</span> <span class="title">liuxindime</span>    21 <span class="title">Mar</span>  1 10:59 <span class="title">README.md</span></span></span><br></pre></td></tr></table></figure>
 <h3 id="基本快照命令"><a href="#基本快照命令" class="headerlink" title="基本快照命令"></a>基本快照命令</h3><h4 id="1-git-add"><a href="#1-git-add" class="headerlink" title="1. git add"></a>1. git add</h4><p><code>git add [文件]</code> 将文件添加到缓存。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ touch test.txt</span><br><span class="line">$ ls</span><br><span class="line">test.txt</span><br><span class="line">$ git status -s</span><br><span class="line">?? test.txt</span><br></pre></td></tr></table></figure>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ touch test.txt</span><br><span class="line">$ ls</span><br><span class="line">test.txt</span><br><span class="line">$ git status -s</span><br><span class="line">?? test.txt</span><br></pre></td></tr></table></figure>
 <p><code>git status</code> 命令用于查看项目的当前状态。<br>使用 <code>git add</code> 命令将文件 <code>test.txt</code> 添加到缓存。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git add text.txt</span><br></pre></td></tr></table></figure>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git add text.txt</span><br></pre></td></tr></table></figure>
 <p>再次使用 <code>git status -s</code> 查看项目。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git status -s</span><br><span class="line">A test.txt</span><br></pre></td></tr></table></figure>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git status -s</span><br><span class="line">A test.txt</span><br></pre></td></tr></table></figure>
 <p>将项目中所有文件添加到缓存，用 <code>git add .</code> 命令。</p>
 <p>修改 <code>test.txt</code>文件,添加内容：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vim test.txt</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> vim test.txt</span><br></pre></td></tr></table></figure>
 <p>再次使用 <code>git status -s</code> 命令，查看项目状态：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git status -s</span><br><span class="line">AM test.txt</span><br></pre></td></tr></table></figure>
 <p><code>AM</code>状态的意思是，该文件已经添加到缓存之后又有改动。改动后的文件需要再次执行 <code>git add</code> 命令添加到缓存。</p>
@@ -201,46 +531,147 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git rm -r &lt;文件夹&gt;</span><br><span class="line">$ git rm -r *</span><br></pre></td></tr></table></figure>
 <h4 id="7-git-mv"><a href="#7-git-mv" class="headerlink" title="7. git mv"></a>7. git mv</h4><p><code>git mv</code> 命令用于移动或重命名一个文件、目录、软连接。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git mv test.txt test.txt.bak</span><br><span class="line">$ ls</span><br><span class="line">test.txt.bak</span><br></pre></td></tr></table></figure>
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/03/01/Git基本操作/" data-id="cjriloyo10001gctejimonfrx" class="article-share-link">分享</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
       
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-已存在项目上传github" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/02/28/已存在项目上传github/" class="article-date">
-  <time datetime="2018-02-28T10:54:45.000Z" itemprop="datePublished">2018-02-28</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Git/">Git</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/02/28/已存在项目上传github/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="hunsy">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/common/my_avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="随记">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/02/28/已存在项目上传github/">已存在项目上传github</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/02/28/已存在项目上传github/" itemprop="url">已存在项目上传github</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-28T18:54:45+08:00">
+                2018-02-28
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Git/" itemprop="url" rel="index">
+                    <span itemprop="name">Git</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <h4 id="1-打开命令行终端，进入项目所在的目录，将项目初始化为Git项目"><a href="#1-打开命令行终端，进入项目所在的目录，将项目初始化为Git项目" class="headerlink" title="1. 打开命令行终端，进入项目所在的目录，将项目初始化为Git项目"></a>1. 打开命令行终端，进入项目所在的目录，将项目初始化为Git项目</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
+      
+
+      
+        
+          
+            <h4 id="1-打开命令行终端，进入项目所在的目录，将项目初始化为Git项目"><a href="#1-打开命令行终端，进入项目所在的目录，将项目初始化为Git项目" class="headerlink" title="1. 打开命令行终端，进入项目所在的目录，将项目初始化为Git项目"></a>1. 打开命令行终端，进入项目所在的目录，将项目初始化为Git项目</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
 <p>执行上述命令，会在当前目录生成.git隐藏文件夹</p>
 <h4 id="2-将本地文件添加到本地的git仓库中"><a href="#2-将本地文件添加到本地的git仓库中" class="headerlink" title="2. 将本地文件添加到本地的git仓库中"></a>2. 将本地文件添加到本地的git仓库中</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure>
 <p>如果目录中存在 <code>.gitignore</code>文件，会按照已有规则过滤不需要的文件。如果不需要添加所以文件，可以将<code>.</code>换成具体文件的名称。</p>
@@ -251,106 +682,327 @@
 <h4 id="7-提交代码到git仓库"><a href="#7-提交代码到git仓库" class="headerlink" title="7. 提交代码到git仓库"></a>7. 提交代码到git仓库</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
 <h4 id="参考："><a href="#参考：" class="headerlink" title="参考："></a>参考：</h4><p><img src="/images/img1.png" alt="github"></p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/28/已存在项目上传github/" data-id="cjriloyo40003gcte9ibpgdqb" class="article-share-link">分享</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
       
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-
-
-</section>
-        
-          <aside id="sidebar">
   
+  </article>
+
+
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">分类</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a></li></ul>
+  </section>
+
+  
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
 
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
 
-  
-    
+      
 
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">归档</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">三月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">二月 2018</a></li></ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/common/my_avatar.png"
+                alt="hunsy" />
+            
+              <p class="site-author-name" itemprop="name">hunsy</p>
+              <p class="site-description motion-element" itemprop="description">-----------------</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
     </div>
-  </div>
+  </aside>
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2018/03/01/Git分支管理/">Git分支管理</a>
-          </li>
-        
-          <li>
-            <a href="/2018/03/01/Git基本操作/">Git基本操作</a>
-          </li>
-        
-          <li>
-            <a href="/2018/02/28/已存在项目上传github/">已存在项目上传github</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
         
       </div>
-      <footer id="footer">
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2018 &mdash; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">hunsy</span>
+
   
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2019 Hunsy<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">首页</a>
-  
-    <a href="/archives" class="mobile-nav-link">归档</a>
-  
-</nav>
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-
+    
 
   </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
